@@ -36,6 +36,25 @@ const (
 	SCL_PIN = 0  // P19 on the board
 )
 
+// SPI pins
+const (
+	SPI_MOSI = 21
+	SPI_MISO = 22
+	SPI_SCK  = 23
+)
+
+// ACCELEROMETER pins (MMA8653FC)
+const (
+	ACCEL_INT2 = 27
+	ACCEL_INT1 = 28
+
+)
+
+// COMPASS pins (MAG3110FC)
+const (
+	MAG_INT1 = 29
+)
+
 // LED matrix pins
 const (
 	LED_COL_1 = 4
